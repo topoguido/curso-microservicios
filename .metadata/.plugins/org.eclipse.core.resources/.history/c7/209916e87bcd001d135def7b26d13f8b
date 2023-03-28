@@ -1,0 +1,8 @@
+package com.topo.springboot.app.item.clientes;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "servicio-productos")
+public interface ProductoClienteRest {
+
+}

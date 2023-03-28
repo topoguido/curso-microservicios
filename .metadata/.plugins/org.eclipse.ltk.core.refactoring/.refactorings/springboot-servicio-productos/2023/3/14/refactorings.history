@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.demo&apos; to &apos;com.topo.springboot.app.productos&apos;&#x0A;- Original project: &apos;springboot-servicio-productos&apos;&#x0A;- Original element: &apos;springboot-servicio-productos/src/main/java/com.example.demo&apos;&#x0A;- Renamed element: &apos;springboot-servicio-productos/src/main/java/com.topo.springboot.app.productos&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.example.demo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo" name="com.topo.springboot.app.productos" qualified="false" references="true" stamp="1679947733740" textual="false" version="1.0"/>
+</session>

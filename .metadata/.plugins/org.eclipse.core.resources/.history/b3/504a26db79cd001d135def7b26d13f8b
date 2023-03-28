@@ -1,0 +1,18 @@
+package com.topo.springboot.app.item.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.topo.springboot.app.item.models.service.ItemService;
+
+@RestController
+public class ItemController {
+	
+	@Autowired
+	private ItemService itemService;
+	
+	public List<Item> listar(){
+		
+	}
+
+}

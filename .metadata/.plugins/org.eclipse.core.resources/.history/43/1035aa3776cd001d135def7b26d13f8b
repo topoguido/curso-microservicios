@@ -1,0 +1,5 @@
+package com.topo.springboot.app.item;
+
+public class AppConfig {
+
+}
