@@ -1,17 +1,9 @@
 package com.topo.springboot.app.productos.models.entity;
 
+import jakarta.persistence.*;
+
 import java.io.Serializable;
 import java.util.Date;
-
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
-import jakarta.persistence.Transient;
 
 @Entity
 @Table(name="productos")
@@ -20,7 +12,7 @@ public class Producto implements Serializable{
 	private static final long serialVersionUID = 1865249936431676842L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	private Long id;
 	
 	private String nombre;
